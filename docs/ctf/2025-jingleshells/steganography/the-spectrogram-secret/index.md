@@ -8,7 +8,7 @@ Basic challenge details:
 
 **Challenge Description**: Santa's enjoying a quiet beach Christmas when a strange holiday tune washes ashore. It sounds ordinary - maybe even peaceful - but something feels off beneath the surface. The ocean hums, the air crackles, and a secret rides the sound itself. Listen closely, trust your instincts, and see what this festive waveform is really saying.
 
-Made and submitted by: Rashmi Ramanayake on behalf of Legion Offensive Security
+**Made and submitted by**: Rashmi Ramanayake on behalf of Legion Offensive Security
 
 ## Writeup
 

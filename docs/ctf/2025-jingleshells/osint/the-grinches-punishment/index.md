@@ -10,7 +10,7 @@ Basic challenge details:
 
 **Hint**: He lied. It's the username that matters.
 
-Made and submitted by:
+**Made and submitted by**:
 
 ## Writeup
 

@@ -10,7 +10,7 @@ Basic challenge details:
 
 **Hint**: Enemy used a quick field-scramble: undo the recorder’s scrambling, unwrap the alphabet camouflage, decode the payload, then hunt the repeated bird-code with a short five-letter key - crib the standard flag header to confirm
 
-Made and submitted by:
+**Made and submitted by**:
 
 ## Writeup
 

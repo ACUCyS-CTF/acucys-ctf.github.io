@@ -12,7 +12,7 @@ Basic challenge details:
 
 **Hint 2**: You may go to the place where you can hear quiet footsteps, if you do something wrong.
 
-Made and submitted by:
+**Made and submitted by**:
 
 ## Writeup
 

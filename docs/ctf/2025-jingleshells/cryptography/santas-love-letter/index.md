@@ -10,7 +10,7 @@ Basic challenge details:
 
 **Hint**: Look at the Unicode of U+1FA77, to unlock the message. The encryption involves mapping letters to numbers (A=0, B=1,…), so think about how that might work!
 
-Made and submitted by:
+**Made and submitted by**:
 
 ## Writeup
 

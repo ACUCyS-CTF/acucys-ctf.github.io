@@ -17,7 +17,7 @@ Our analysts discovered traces of Base64 encoding layered over an XOR cipher, en
 Your mission is simple: Decode the message, reveal the hidden flag, and report back to command.
 
 
-Made and submitted by:
+**Made and submitted by**:
 
 ## Writeup
 

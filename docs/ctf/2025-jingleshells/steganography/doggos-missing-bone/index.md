@@ -12,7 +12,7 @@ Basic challenge details:
 
 **Hint 2**: Don’t trust what your image viewer shows, perhaps it doesn't show everything.
 
-Made and submitted by:
+**Made and submitted by**:
 
 ## Writeup
 

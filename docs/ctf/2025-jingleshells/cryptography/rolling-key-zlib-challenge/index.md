@@ -17,7 +17,7 @@ A clever lock awaits: each step forward by seventy-three, then add seventeen, ma
 When the dance is done, a familiar whisper begins with 78 9C - breathe air into it, and the secret name will appear.
 
 
-Made and submitted by:
+**Made and submitted by**:
 
 ## Writeup
 

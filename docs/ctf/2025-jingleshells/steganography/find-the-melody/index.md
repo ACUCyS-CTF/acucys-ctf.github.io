@@ -10,7 +10,7 @@ Basic challenge details:
 
 **Hint 1**: Install metadata extraction tools such as exiftool or eyeD3.
 
-Made and submitted by:
+**Made and submitted by**:
 
 ## Writeup
 

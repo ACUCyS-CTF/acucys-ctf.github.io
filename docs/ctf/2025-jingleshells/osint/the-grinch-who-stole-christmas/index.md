@@ -15,7 +15,7 @@ Tm90dGhhdGVhc3lwYWxIRUhFSEU=
 
 **Hint**: I am the best CTF player there is. Nobody does CTFs better than me - believe me. I walk into a challenge, and the flags just surrender. Crypto? Solved. Web? Destroyed. Pwn? Total domination. People come up to me - top hackers, very smart people - and they say, "Sir, how do you do it?" And I tell them: incredible instincts, tremendous brain.
 
-Made and submitted by:
+**Made and submitted by**:
 
 ## Writeup
 

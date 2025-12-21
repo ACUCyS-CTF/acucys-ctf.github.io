@@ -8,7 +8,7 @@ Basic challenge details:
 
 **Challenge Description**: Obviously we host this event on jingleshells.acucysctf.org. But really, lookup.
 
-Made and submitted by:
+**Made and submitted by**:
 
 ## Writeup
 

@@ -17,7 +17,7 @@ The intercepted radio log came with a torn notebook stamped with the insignia â€
 No algorithm names, no numbers - yet the sequence feels deliberate. If you follow LEGIONâ€™s march, each line may be a key to the next.
 
 
-Made and submitted by:
+**Made and submitted by**:
 
 ## Writeup
 

@@ -8,7 +8,7 @@ Basic challenge details:
 
 **Challenge Description**: Santa's kicked back on the beach, sunglasses on, holiday vibes fully activated. A chill meme floats by with a carefree message - nothing to worry about, right? But even the calmest waves can hide surprises underneath. Take a moment, slow down, and look a little closer. Sometimes the real vibe isn't what you see… it's what's quietly hidden beneath.
 
-Made and submitted by:
+**Made and submitted by**:
 
 ## Writeup
 

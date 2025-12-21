@@ -10,7 +10,7 @@ Basic challenge details:
 
 **Hint**: A helpful elf grins and says: "Give the letters a little holiday spin - sometimes the secret is only a rotation away."
 
-Made and submitted by:
+**Made and submitted by**:
 
 ## Writeup
 

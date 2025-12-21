@@ -8,7 +8,7 @@ Basic challenge details:
 
 **Challenge Description**: Someone in the North Pole office tried to “clean up” a shared file before sending it out. The current naughty list looks fine, but Santa’s internal note did not disappear as cleanly as they hoped.
 
-Made and submitted by:
+**Made and submitted by**:
 
 ## Writeup
 

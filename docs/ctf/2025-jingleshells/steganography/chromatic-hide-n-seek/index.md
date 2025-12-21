@@ -12,7 +12,7 @@ Basic challenge details:
 
 **Hint 2**: Not every pixel matters. The bright ones hold secrets, the dark ones are just background noise. Follow the colors in order, and the loops will guide you.
 
-Made and submitted by:
+**Made and submitted by**:
 
 ## Writeup
 

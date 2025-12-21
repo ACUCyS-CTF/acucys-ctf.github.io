@@ -10,7 +10,7 @@ Basic challenge details:
 
 **Hint**: Santa’s favourite hashing library in Python is hashlib, but the kids didn’t even need Python to break it. Maybe they looked it up somewhere?
 
-Made and submitted by:
+**Made and submitted by**:
 
 ## Writeup
 

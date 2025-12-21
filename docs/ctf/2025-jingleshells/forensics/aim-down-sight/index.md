@@ -8,7 +8,7 @@ Basic challenge details:
 
 **Challenge Description**: Look really hard and you will find the answer in a stream.
 
-Made and submitted by:
+**Made and submitted by**:
 
 ## Writeup
 

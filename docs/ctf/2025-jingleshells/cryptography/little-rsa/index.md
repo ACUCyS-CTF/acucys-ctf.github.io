@@ -17,7 +17,7 @@ Basic challenge details:
 
 Each number is a little `16-bit` block that was nudged by `+27`. Subtract `27`, stitch the blocks in little-endian order to re-create p and q. Then compute `d = e^{-1} (mod φ(n))` and do `m = c^d mod n`. Convert `m` to bytes for the flag
 
-Made and submitted by:
+**Made and submitted by**:
 
 ## Writeup
 

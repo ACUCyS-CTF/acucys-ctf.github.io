@@ -20,7 +20,7 @@ With Christmas lights still flickering and the waves rolling in, your mission is
 
 Hint 3: DNA to Data?
 
-Made and submitted by:
+**Made and submitted by**:
 
 ## Writeup
 
