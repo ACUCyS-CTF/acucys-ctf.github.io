@@ -1,12 +1,12 @@
 # MorseBro
 
 Basic challenge details:
-- Difficulty: Medium
-- Points: 225 (static)
-- Resources: Click Here
-- Hints: 1
+- **Difficulty**: Medium
+- **Points**: 225 (static)
+- **Resources**: Click Here
+- **Hints**:1
 
-Challenge Description: Santa's beach radio crackles to life with a strange holiday transmission. It sounds festive, rhythmic, and oddly layered - like a message wrapped, unwrapped, then wrapped again. Somewhere beneath the dots, waves, and winter static lies something meant to stay hidden. Tune in carefully, peel back what you hear, and see what secret this sun-soaked signal is guarding.
+**Challenge Description**: Santa's beach radio crackles to life with a strange holiday transmission. It sounds festive, rhythmic, and oddly layered - like a message wrapped, unwrapped, then wrapped again. Somewhere beneath the dots, waves, and winter static lies something meant to stay hidden. Tune in carefully, peel back what you hear, and see what secret this sun-soaked signal is guarding.
 
 **Hint**:
 

@@ -1,12 +1,12 @@
 # ChillXOR
 
 Basic challenge details:
-- Difficulty: Easy
-- Points: 150 (static)
-- Resources: Click Here
-- Hints: 1
+- **Difficulty**: Easy
+- **Points**: 150 (static)
+- **Resources**: Click Here
+- **Hints**:1
 
-Challenge Description: While Santa's chilling by the beach, you come across a short string that looks like pure holiday gibberish. It turns out it's been base64-encoded after being XOR’d with a short English word - wrapped up like a sneaky Christmas gift
+**Challenge Description**: While Santa's chilling by the beach, you come across a short string that looks like pure holiday gibberish. It turns out it's been base64-encoded after being XOR’d with a short English word - wrapped up like a sneaky Christmas gift
 
 **Hint**:
 

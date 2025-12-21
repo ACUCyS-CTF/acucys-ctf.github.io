@@ -1,12 +1,12 @@
 # Little RSA
 
 Basic challenge details:
-- Difficulty: Easy
-- Points: 150 (static)
-- Resources: Click Here
-- Hints: 1
+- **Difficulty**: Easy
+- **Points**: 150 (static)
+- **Resources**: Click Here
+- **Hints**:1
 
-Challenge Description: Santa's swapped his calculator for a coconut, but someone left a festive lockbox behind in the sand. The numbers look small, scrambled, and a little sun-baked - yet there's a message hiding beneath the holiday math. Piece together what was meant to stay bundled up, and unwrap a cryptographic gift before the tide rolls in.
+**Challenge Description**: Santa's swapped his calculator for a coconut, but someone left a festive lockbox behind in the sand. The numbers look small, scrambled, and a little sun-baked - yet there's a message hiding beneath the holiday math. Piece together what was meant to stay bundled up, and unwrap a cryptographic gift before the tide rolls in.
 
 **Hint**:
 

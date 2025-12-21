@@ -1,12 +1,12 @@
 # Rolling-Key Zlib Challenge
 
 Basic challenge details:
-- Difficulty: Medium
-- Points: 200 (static)
-- Resources: Click Here
-- Hints: 1
+- **Difficulty**: Medium
+- **Points**: 200 (static)
+- **Resources**: Click Here
+- **Hints**:1
 
-Challenge Description: Santa left a curious holiday note buried in the sand - short, scrambled, and wrapped more times than a beachside present. At first glance it's just festive nonsense, but something familiar is hiding beneath the layers. Unwind the twists, follow the rhythm, and see what secret pops free once the holiday wrapping finally comes off.
+**Challenge Description**: Santa left a curious holiday note buried in the sand - short, scrambled, and wrapped more times than a beachside present. At first glance it's just festive nonsense, but something familiar is hiding beneath the layers. Unwind the twists, follow the rhythm, and see what secret pops free once the holiday wrapping finally comes off.
 
 **Hint**:
 

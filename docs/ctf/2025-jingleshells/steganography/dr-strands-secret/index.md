@@ -1,10 +1,10 @@
 # Dr. Strand's Secret
 
 Basic challenge details:
-- Difficulty: Medium
-- Points: 250 (static)
-- Resources: Click Here
-- Hints: 3
+- **Difficulty**: Medium
+- **Points**: 250 (static)
+- **Resources**: Click Here
+- **Hints**:3
 
 **Challenge Description**:
 
@@ -14,9 +14,9 @@ Intelligence reports suggest Dr. Strand was extremely paranoid about data securi
 
 With Christmas lights still flickering and the waves rolling in, your mission is to decode her backup files and discover what she was hiding before she disappeared.
 
-Hint 1: What does NNN Mean?
+**Hint 1**: What does NNN Mean?
 
-Hint 2: Reading frames in molecular biology.
+**Hint 2**: Reading frames in molecular biology.
 
 Hint 3: DNA to Data?
 
