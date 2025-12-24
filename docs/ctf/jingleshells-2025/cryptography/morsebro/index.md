@@ -16,8 +16,12 @@ The intercepted radio log came with a torn notebook stamped with the insignia â€
 
 No algorithm names, no numbers - yet the sequence feels deliberate. If you follow LEGIONâ€™s march, each line may be a key to the next.
 
-
-**Made and submitted by**:
+**Made and submitted by**: Wooshan Gamage on behalf of Legion Offensive Security
 
 ## Writeup
 
+Given in the hint is a special word "`LEGION`" - who is also a partner of this CTF. This is the key that has to be used for the Vigenere Decode function.
+
+![alt text](image.png)
+
+The above recipe deciphers the flag: `AUCTF{F1ke_fL0G_Browsk11111}`
