@@ -11,7 +11,9 @@ Basic challenge details:
 **Hint**: The file conceals a story told in pieces. One part can be found with ease, while the other lingers in places often overlooked. Discover what the system tries to forget and piece them together to reveal the full flag.
 
 
-**Made and submitted by**:
+**Made and submitted by**: Amindya Wijesinghe on behalf of Legion Offensive Security
 
 ## Writeup
+
+Begin by inspecting the given file to understand its type and structure. This helps decide thenext steps for deeper analysis.
 
