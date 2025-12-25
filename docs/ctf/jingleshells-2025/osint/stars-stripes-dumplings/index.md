@@ -18,3 +18,16 @@ Hint 3: He's part of the Melbourne Chess Collective
 
 ## Writeup
 
+The "red, white and blue" reference along with Hint 1 tells "America". Hint 2 tells that the auntie is "Europe Clause". Therefore, it's safe to assume that we are looking at "America Clause". Hint 2 also suggests that he is a facebook user. Searching for this name in Facebook gives us this profile:
+
+![alt text](image.png)
+
+This post can be found posted on his profile.
+
+![alt text](image-1.png)
+
+Reverse searching this image reveals it's name and location.
+
+![alt text](image-2.png)
+
+Flag: `AUCTF{The_Crane}`
