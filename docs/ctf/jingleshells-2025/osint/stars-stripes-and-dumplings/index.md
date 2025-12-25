@@ -14,7 +14,7 @@ Basic challenge details:
 
 Hint 3: He's part of the Melbourne Chess Collective
 
-**Made and submitted by**:
+**Made and submitted by**: James Belcher Jr
 
 ## Writeup
 
