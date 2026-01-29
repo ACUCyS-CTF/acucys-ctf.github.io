@@ -1,11 +1,25 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
+  padding: 3rem 0 3.5rem;
   width: 100%;
+  gap: 2.5rem;
 }
 
 .featureSvg {
   height: 200px;
   width: 200px;
+}
+
+@media screen and (max-width: 996px) {
+  .features {
+    flex-direction: column;
+    padding: 2.5rem 0;
+    gap: 2rem;
+  }
+
+  .featureSvg {
+    height: 160px;
+    width: 160px;
+  }
 }

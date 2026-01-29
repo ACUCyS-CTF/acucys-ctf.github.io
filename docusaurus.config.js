@@ -13,7 +13,7 @@ const config = {
   // TODO: Update the base config
   title: 'ACUCyS',
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/ACUCyS_Logo.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -83,7 +83,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/ACUCyS_Logo.png',
       colorMode: {
         respectPrefersColorScheme: true,
       },
@@ -91,7 +91,7 @@ const config = {
         title: 'ACUCyS',
         logo: {
           alt: 'ACUCyS Logo',
-          src: 'img/logo.svg',
+          src: 'img/ACUCyS_Logo.png',
         },
         items: [
           {
@@ -120,51 +120,50 @@ const config = {
         ],
       },
 
-      // TODO: Update footer
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Site',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'ACUCyS homepage',
+                href: 'https://www.acucys.org/',
+              },
+              {
+                label: 'About ACUCyS',
+                href: 'https://www.acucys.org/about-acucys',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Write-ups',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'CTF',
+                to: '/docs/ctf/intro',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'Hackathon',
+                to: '/docs/hackathon/intro',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Connect',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Cyber Security Education Australia (CySEA)',
+                href: 'https://www.cysea.org.au/',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Contact ACUCyS',
+                href: 'https://www.acucys.org/contact',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `© ${new Date().getFullYear()} Australian Council of University Cyber Societies (ACUCyS).`,
       },
       prism: {
         theme: prismThemes.github,

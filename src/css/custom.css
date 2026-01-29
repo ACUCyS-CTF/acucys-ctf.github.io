@@ -4,27 +4,234 @@
  * work well for content-centric websites.
  */
 
-/* You can override the default Infima variables here. */
+/* ACUCyS brand token overrides: colour, typography, and base layout. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  /* Brand colours - light theme */
+  --acucys-blue-primary: #0d43fe;
+  --acucys-blue-secondary: #2152fc;
+  --acucys-ink: #0b0b0f;
+  --acucys-off-white: #f5f6fb;
+  --acucys-grey: #8a8f9e;
+
+  /* Infima primary mapping to ACUCyS palette */
+  --ifm-color-primary: var(--acucys-blue-primary);
+  --ifm-color-primary-dark: #0b35c6;
+  --ifm-color-primary-darker: #082ba5;
+  --ifm-color-primary-darkest: #051f78;
+  --ifm-color-primary-light: var(--acucys-blue-secondary);
+  --ifm-color-primary-lighter: #4c71ff;
+  --ifm-color-primary-lightest: #879bff;
+
+  /* Base typography – modern, readable sans stack */
+  --ifm-font-family-base: system-ui, -apple-system, BlinkMacSystemFont, 'Inter',
+    'Segoe UI', sans-serif;
+  --ifm-heading-font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    'Inter', 'Segoe UI', sans-serif;
+  --ifm-code-font-family: ui-monospace, SFMono-Regular, Menlo, Consolas,
+    'Liberation Mono', 'Courier New', monospace;
+
+  /* Layout and surface */
+  --ifm-background-color: var(--acucys-off-white);
+  --ifm-background-surface-color: #ffffff;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-footer-background-color: #05060a;
+
+  /* Text colours */
+  --ifm-font-color-base: var(--acucys-ink);
+  --ifm-color-emphasis-700: var(--acucys-ink);
+  --ifm-color-emphasis-600: #1b1c23;
+  --ifm-color-emphasis-500: #2a2b34;
+  --ifm-color-secondary: var(--acucys-grey);
+
+  /* Component tweaks */
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-button-border-radius: 999px;
+  --ifm-container-width-xl: 1120px;
+
+  /* Highlighted code background tuned for light surfaces */
+  --docusaurus-highlighted-code-line-bg: rgba(13, 67, 254, 0.05);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark theme palette tuned to keep blue accessible on dark surfaces. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --acucys-blue-primary: #4c7dff;
+  --acucys-blue-secondary: #6d91ff;
+  --acucys-ink: #f5f6fb;
+  --acucys-off-white: #05060a;
+  --acucys-grey: #a5a9ba;
+
+  --ifm-color-primary: var(--acucys-blue-primary);
+  --ifm-color-primary-dark: #355fff;
+  --ifm-color-primary-darker: #214bff;
+  --ifm-color-primary-darkest: #1533bf;
+  --ifm-color-primary-light: var(--acucys-blue-secondary);
+  --ifm-color-primary-lighter: #8ca6ff;
+  --ifm-color-primary-lightest: #b7c5ff;
+
+  --ifm-background-color: #05060a;
+  --ifm-background-surface-color: #0b0c13;
+  --ifm-navbar-background-color: #0b0c13;
+  --ifm-footer-background-color: #020308;
+
+  --ifm-font-color-base: var(--acucys-ink);
+  --ifm-color-emphasis-700: #f5f6fb;
+  --ifm-color-emphasis-600: #daddef;
+  --ifm-color-emphasis-500: #b2b6d0;
+  --ifm-color-secondary: var(--acucys-grey);
+
+  --docusaurus-highlighted-code-line-bg: rgba(76, 125, 255, 0.18);
+}
+
+/* Hero section: compact, calm, and institution-friendly. */
+.hero.hero--primary {
+  background: radial-gradient(circle at top left, rgba(13, 67, 254, 0.18), transparent 55%),
+    radial-gradient(circle at bottom right, rgba(33, 82, 252, 0.16), transparent 55%),
+    var(--ifm-background-surface-color);
+  color: var(--acucys-ink);
+  border-bottom: 1px solid rgba(138, 143, 158, 0.18);
+}
+
+[data-theme='dark'] .hero.hero--primary {
+  background: radial-gradient(circle at top left, rgba(76, 125, 255, 0.25), transparent 60%),
+    radial-gradient(circle at bottom right, rgba(33, 82, 252, 0.3), transparent 60%),
+    #05060a;
+  color: var(--acucys-ink);
+  border-bottom: 1px solid rgba(138, 143, 158, 0.3);
+}
+
+.hero__title {
+  letter-spacing: 0.02em;
+  font-weight: 750;
+}
+
+.hero__subtitle {
+  max-width: 640px;
+  margin: 0.75rem auto 0;
+  color: var(--acucys-grey);
+}
+
+/* Primary actions – student-led, confident CTAs. */
+.button.button--secondary.button--lg {
+  background: var(--ifm-color-primary);
+  color: #ffffff;
+  border-radius: var(--ifm-button-border-radius);
+  border: none;
+  padding-inline: 1.75rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.button.button--secondary.button--lg:hover {
+  background: var(--ifm-color-primary-dark);
+  color: #ffffff;
+  box-shadow: 0 10px 30px rgba(13, 67, 254, 0.35);
+  text-decoration: none;
+}
+
+.button.button--secondary.button--lg:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 2px;
+  box-shadow: 0 0 0 3px rgba(13, 67, 254, 0.7);
+}
+
+/* Links – subtle until hovered, then clearly actionable. */
+a {
+  text-decoration: none;
+  color: var(--ifm-color-primary);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar – clean and minimal. */
+.navbar {
+  box-shadow: 0 1px 0 rgba(11, 11, 15, 0.06);
+}
+
+[data-theme='dark'] .navbar {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.8);
+}
+
+.navbar__logo img {
+  height: 40px;
+}
+
+/* Footer – understated foundation. */
+.footer {
+  font-size: 0.9rem;
+  border-top: 1px solid rgba(138, 143, 158, 0.3);
+}
+
+.footer__inner {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.footer__links {
+  gap: 2rem;
+}
+
+.footer__title {
+  text-transform: none;
+  letter-spacing: 0.02em;
+}
+
+.footer__copyright {
+  font-size: 0.85rem;
+  color: var(--acucys-grey);
+}
+
+.footer__item a {
+  color: #ffffff;
+}
+
+.footer__item a:hover {
+  text-decoration: underline;
+}
+
+.footer__col {
+  min-width: 0;
+}
+
+/* Cards and content blocks – used heavily for docs and future modules. */
+.card {
+  border-radius: 18px;
+  border: 1px solid rgba(138, 143, 158, 0.18);
+  box-shadow: 0 12px 40px rgba(11, 11, 15, 0.04);
+}
+
+[data-theme='dark'] .card {
+  border-color: rgba(138, 143, 158, 0.28);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.65);
+}
+
+.card__header h2,
+.card__header h3 {
+  text-transform: none;
+}
+
+/* Tables and code blocks – keep them calm and readable. */
+.table th {
+  font-weight: 600;
+}
+
+.theme-code-block {
+  border-radius: 14px;
+  border: 1px solid rgba(138, 143, 158, 0.2);
+}
+
+/* Page rhythm – more breathing room around main content. */
+.main-wrapper {
+  padding-top: 0;
+}
+
+.container {
+  padding-inline: 1.5rem;
+}
+
+@media screen and (min-width: 996px) {
+  .container {
+    padding-inline: 2.5rem;
+  }
 }
