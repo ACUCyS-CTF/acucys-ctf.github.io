@@ -4,16 +4,16 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import { themes as prismThemes } from 'prism-react-renderer';
+import { themes as prismThemes } from "prism-react-renderer";
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   // TODO: Update the base config
-  title: 'ACUCyS',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/ACUCyS_Logo.png',
+  title: "ACUCyS",
+  tagline: "Dinosaurs are cool",
+  favicon: "img/ACUCyS_Logo.png",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -21,37 +21,37 @@ const config = {
   },
 
   // Set the production url of your site here
-  url: 'https://acucys.github.io',
+  url: "https://acucys.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'ACUCyS', // Usually your GitHub org/user name.
-  projectName: 'acucys.github.io', // Usually your repo name.
+  organizationName: "ACUCyS", // Usually your GitHub org/user name.
+  projectName: "acucys.github.io", // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: "throw",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: './sidebars.js',
+          sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         // ----------
         // BLOG: Uncomment to enable blogs to navbar.
@@ -73,7 +73,7 @@ const config = {
         // },
         // ----------
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: "./src/css/custom.css",
         },
       }),
     ],
@@ -83,34 +83,39 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/ACUCyS_Logo.png',
+      image: "img/ACUCyS_Logo.png",
       colorMode: {
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'ACUCyS',
+        title: "ACUCyS",
         logo: {
-          alt: 'ACUCyS Logo',
-          src: 'img/ACUCyS_Logo.png',
+          alt: "ACUCyS Logo",
+          src: "img/ACUCyS_Logo.png",
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'ctfSidebar',
-            position: 'left',
-            label: 'Capture The Flag',
+            type: "docSidebar",
+            sidebarId: "ctfSidebar",
+            position: "left",
+            label: "Capture The Flag",
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'hackathonSidebar',
-            position: 'left',
-            label: 'Hackathon',
+            type: "docSidebar",
+            sidebarId: "hackathonSidebar",
+            position: "left",
+            label: "Hackathon",
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'conferenceSidebar',
-            position: 'left',
-            label: 'Conference',
+            type: "docSidebar",
+            sidebarId: "conferenceSidebar",
+            position: "left",
+            label: "Conference",
+          },
+          {
+            label: "Main Site",
+            href: "https://acucys.org",
+            position: "right",
           },
           // ----------
           // BLOG: Uncomment to add blogs to navbar.
@@ -121,44 +126,44 @@ const config = {
       },
 
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Site',
+            title: "Site",
             items: [
               {
-                label: 'ACUCyS homepage',
-                href: 'https://www.acucys.org/',
+                label: "ACUCyS homepage",
+                href: "https://www.acucys.org/",
               },
               {
-                label: 'About ACUCyS',
-                href: 'https://www.acucys.org/about-acucys',
+                label: "About ACUCyS",
+                href: "https://www.acucys.org/about-acucys",
               },
             ],
           },
           {
-            title: 'Write-ups',
+            title: "Write-ups",
             items: [
               {
-                label: 'CTF',
-                to: '/docs/ctf/intro',
+                label: "CTF",
+                to: "/docs/ctf/intro",
               },
               {
-                label: 'Hackathon',
-                to: '/docs/hackathon/intro',
+                label: "Hackathon",
+                to: "/docs/hackathon/intro",
               },
             ],
           },
           {
-            title: 'Connect',
+            title: "Connect",
             items: [
               {
-                label: 'Cyber Security Education Australia (CySEA)',
-                href: 'https://www.cysea.org.au/',
+                label: "Cyber Security Education Australia (CySEA)",
+                href: "https://www.cysea.org.au/",
               },
               {
-                label: 'Contact ACUCyS',
-                href: 'https://www.acucys.org/contact',
+                label: "Contact ACUCyS",
+                href: "https://www.acucys.org/contact",
               },
             ],
           },
