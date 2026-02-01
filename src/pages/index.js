@@ -1,18 +1,19 @@
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
+import clsx from "clsx";
+import Link from "@docusaurus/Link";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import Layout from "@theme/Layout";
 
-import Heading from '@theme/Heading';
-import styles from './index.module.css';
+import Heading from "@theme/Heading";
+import styles from "./index.module.css";
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className={clsx("hero hero--primary", styles.heroBanner)}>
       <div className="container">
         <Heading as="h1" className="hero__title">
-          Australian Council of University Cyber Societies (ACUCyS) Documentation
+          Australian Council of University Cyber Societies (ACUCyS)
+          Documentation
         </Heading>
         <p className="hero__subtitle">
           A student-led national network of university cyber societies, building
@@ -22,7 +23,8 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/ctf/intro">
+            to="/docs/ctf/intro"
+          >
             Explore CTF write-ups
           </Link>
         </div>
@@ -35,7 +37,8 @@ export default function Home() {
   return (
     <Layout
       title="Australian Council of University Cyber Societies"
-      description="ACUCyS unifies and represents university cyber security student societies across Australia, enabling collaboration, professional development, and advocacy.">
+      description="ACUCyS unifies and represents university cyber security student societies across Australia, enabling collaboration, professional development, and advocacy."
+    >
       <HomepageHeader />
       <main>
         <section className={styles.section}>
@@ -52,13 +55,9 @@ export default function Home() {
               <div className={styles.overviewActions}>
                 <Link
                   className="button button--secondary button--lg"
-                  href="https://www.acucys.org/">
+                  href="https://www.acucys.org/"
+                >
                   Visit acucys.org
-                </Link>
-                <Link
-                  className="button button--outline button--lg"
-                  to="/docs/ctf/intro">
-                  Browse CTF write-ups
                 </Link>
               </div>
             </div>
