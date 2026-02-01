@@ -17,3 +17,6 @@ Basic challenge details:
 
 Begin by inspecting the given file to understand its type and structure. This helps decide thenext steps for deeper analysis.
 
+...
+
+Will be added soon!
